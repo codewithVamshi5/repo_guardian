@@ -170,7 +170,7 @@ repo_guardian/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/muski630346/repo_guardian.git
+git clone https://github.com/codewithVamshi5/repo_guardian.git
 cd repo_guardian
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
@@ -183,7 +183,7 @@ pip install -r requirements.txt
 GITHUB_TOKEN=ghp_your_token_here
 GROQ_API_KEY=gsk_your_key_here
 LLM_MODEL=groq
-GITHUB_REPO=muski630346/repo_guardian
+GITHUB_REPO=codewithVamshi5/repo_guardian
 ```
 
 | Variable | Where to get it |
@@ -195,7 +195,7 @@ GITHUB_REPO=muski630346/repo_guardian
 
 ```bash
 # Review PR #1 in your repo
-python agents/orchestrator.py muski630346/repo_guardian 1
+python agents/orchestrator.py codewithVamshi5/repo_guardian 1
 ```
 
 This will:
